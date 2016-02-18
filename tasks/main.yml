@@ -1,0 +1,4 @@
+---
+
+- name: Install zsh package
+  apt: name=zsh state=present update_cache=yes
